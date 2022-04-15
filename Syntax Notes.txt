@@ -1,0 +1,12 @@
+Remember semicolon to end all lines of code
+
+System.out.println; (Writeline)
+
+imports java.utils.Scanner;(This requests user imput after each Printline)
+
+Variable just require you to type data type and the name of the variable 
+Example
+int height = 10;
+
+when doing with scanner
+int height=scanner.nextint();
