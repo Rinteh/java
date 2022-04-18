@@ -4,10 +4,7 @@
  */
 package pkgwhile.loop;
 
-/**
- *
- * @author fabia
- */
+
 public class WhileLoop {
 
    
@@ -18,14 +15,15 @@ public class WhileLoop {
             System.out.println(i);
             i++;
         }*/
-        
+       ************************************************************ 
         //defining index variable i
         //defining loop parameters
         //adding incrementation of i
+       
         /*for(int i = 20;i>=10; i--){
         System.out.println(i);*/
         
-        
+       **************************************************************** 
         //Prints out of start to end of array using i as index for the array
         String [] friends = {" ","jim","Angela","Oscar","Dwight"};
         
