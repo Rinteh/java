@@ -1,0 +1,10 @@
+ String q6 = "What year was the first BMW 3 series released?\n"
+                +"(a)1975\n(b)1981\n(c)2000\n";
+        String q7 = "What was first BMW model?\n"
+                +"(a)3/15\n(b)M2\n(c)2002";
+        String q8 = "What year did BMW attain Rolls Royce\n"
+                +"(a)1996\n(b)1999\n(c)1993\n";
+        String q9 = "What is the latest BMW model?\n"
+                +"(a)m8\n(b)m5cs\n(c)m240i\n";
+        String q10 = "What was the first BMW M car ?\n"
+                +"(a)M1\n(b)M3\n(c)M8\n";
