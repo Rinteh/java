@@ -14,7 +14,7 @@ import java.awt.Point;
  int x2 =0;
  int y2 =0;
          
-
+//"Builds" The rectangle giving it structure and returning the given values
 MyRec buildRec(int x1, int y1, int x2, int y2)
 {
 this.x1 = x1;
@@ -41,7 +41,7 @@ x2 = (x1+w);
 y2 =(y1+h);
 return this;
 }
-
+//Prints the rectangle
 void printRec()
 {
 System.out.print("MyRect: <" + x1 + "," + y1);
@@ -53,7 +53,7 @@ System.out.print("," + x2 + "," + y2 + ">"+"\n");
         MyRec rect= new MyRec();
         
         
-        
+ //Prints out the coordinates of the rectangle on the cartesian plane with the given values       
 System.out.println("Calling buildRect with coordinates 15,15,50,50:");
 rect.buildRec(15,15,25,25);
 rect.printRec();
