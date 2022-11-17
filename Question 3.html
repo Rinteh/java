@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript form validation</title>
+
+</head>
+<body style="background-color:lightgreen" onload='document.form1.name1.focus()' >
+<div class="mail">
+<h2>Enter your Information in the form below</h2>
+<form name="form1" action="#" >
+
+First Name: <input type='text' name='name1'/><br><br>
+
+
+Adresses: <input type='text' name='ADR'/><br><br>
+
+
+Postal Code: <input type='text' name='PCD'/><br><br>
+
+
+<label for="prov">Choose a Province:</label>
+  <select id="prov" name="prov">
+    <option selected="" value="Default">(Please Choose)</option>
+    <option value="Eastern Cape">Eastern Cape</option>
+    <option value="Free State">Free State</option>
+    <option value="Gauteng">Gauteng</option>
+    <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+	<option value="Limpopo">Limpopo</option>
+	<option value="Mpumalanga">Mpumalanga</option>
+	<option value="Northern Cape">Northern Cape</option>
+	<option value="North West">North West</option>
+	<option value="Western Cape">Western Cape</option>
+  </select><br><br>
+  
+  
+Username(6-8 characters): <input type='text' name='USN'/><br><br>
+
+
+Email:<input type='text' name='EMA'/><br><br>
+
+
+
+&nbsp;
+   <input type="submit" name="Check Form" value="Check Form" 
+   onclick="allLetter(document.form1.name1); 
+   alphanumeric(document.form1.ADR);
+   letters(document.form1.PCD); 
+   Validate(document.form1.prov); 
+   Userlen(document.form1.USN);  
+   ValEmail(document.form1.EMA)	 " />
+&nbsp;
+
+
+</div>
+<script src="Q3.js"></script>
+</body>
+</html
+
