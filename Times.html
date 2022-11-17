@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Drop cap formatting</title>
+<Script Language="JavaScript">
+function calculate() {
+start = parseInt(document.frmOne.txtStart.value); 
+end = parseInt(document.frmOne.txtEnd.value); 
+times = parseInt(document.frmOne.txtTimes.value); 
+if(Number(start) && Number(end) && Number(times))
+ {
+ start = Number(start);
+ end = Number(end);
+ times = Number(times);
+ result = document.frmOne.taOne; 
+ for(i = start; i <= end; i++)
+ {
+answer = i * times;
+result.value = result.value  + (i + " times " + times + " = " + answer + "\n");
+}
+ }
+else {
+alert("Please enter numbers in the boxes");
+}
+ }
+ </Script>
+</head>
+<body>
+<FORM NAME = "frmOne">
+
+Start Number:<INPUT TYPE = Text NAME = txtStart Size = 8> </br></br> 
+
+End Number:<INPUT TYPE = Text NAME = txtEnd Size = 8> </br></br> 
+
+Multiply By:<INPUT TYPE = Text NAME = txtTimes Size = 8></br></br> 
+
+<textarea name="taOne" rows="10" cols="25"> </textarea><br><br> 
+
+<INPUT TYPE = Button NAME = "b1" VALUE = "Calculate" onClick = calculate()> 
+
+</FORM>
+</body>
+</html>

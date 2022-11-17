@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>JavaScript Example: Variables and functions prompt() and confirm()</title>
+ <script>
+ var username = prompt("Enter your name: ", ""); 
+ var age = prompt("Enter your age: ", ""); 
+ if (confirm("Your name is " + username)) 
+{
+ if ((age<18) ||(age > 64)) 
+ {
+document.write("<h1>Hello, " + username + "!</h1>"); 
+ document.write("<h1>Your age is, " + age + "! </h1>"); 
+ document.write("<h1>You do not qualify for a new enrolement in the military!</h1>"); 
+ }
+else
+{document.write("<h1>Hello, " + username + "! You do qualify for a new enrolement inthe military!</h1>");
+}
+ }
+else {
+ document.write("<h1>Hello, how do you do!</h1>");
+ }
+ </script>
+</head>
+<body>
+  
+</body>
+</html>
